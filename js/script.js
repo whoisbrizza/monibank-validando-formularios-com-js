@@ -80,7 +80,7 @@ function verificaCampo(campo) {
   })
   const mensagemErro = campo.parentNode.querySelector('.mensagem-erro');
   const validadorDeInput = campo.checkValidity();
-  campo.style.border = "2px solid red";
+  //campo.style.border = "2px solid red";
 
   if(!validadorDeInput) {
     mensagemErro.textContent = mensagem;
